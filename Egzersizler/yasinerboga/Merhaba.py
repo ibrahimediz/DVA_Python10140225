@@ -4,3 +4,4 @@
 # kullanıcının girmiş olduğu veririnin ilk 2 karakterini ekrana yazdıran python kodunu yazınız
 isim = input ("isim giriniz:")
 print (isim[0:2])
+

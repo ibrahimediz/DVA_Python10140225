@@ -11,3 +11,5 @@ print(isim[0:2])
 isim = input("Lütfen isminizi girin: ")
 
 print(isim[::-1])
+
+

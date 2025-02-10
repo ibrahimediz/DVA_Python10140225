@@ -8,4 +8,7 @@ print("Merhaba", isim, "memnun oldum.")
 print(isim[0:2])
 
 
-
+l1 = [1,2,3]
+l2 = l1.copy()
+l2.append(500)
+print(l1,l2)

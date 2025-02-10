@@ -7,3 +7,4 @@
 
 isim = input("lütfen isminizi girin: ")
 print("isminizin ilk iki harfi:", isim[:2])
+

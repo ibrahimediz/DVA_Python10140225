@@ -8,3 +8,4 @@
 isim = input("İsminizi Giriniz:")
 print(isim[0:2])
 print(isim[:2])
+

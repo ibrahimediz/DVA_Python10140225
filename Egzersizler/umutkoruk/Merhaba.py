@@ -5,7 +5,7 @@
 
 ad=input("LÜTFEN AD SOYAD GİRİŞİ YAPINIZ...")
 
-print("ad","adanızın il ıkı harfi",[:2])
+print("adanızın il ıkı harfi",ad[:2])
 
 
 
