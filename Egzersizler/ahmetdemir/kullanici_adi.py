@@ -1,5 +1,4 @@
-isim = input("Lütfen isminizi girin: ")
-print("İsminizin ilk iki harfi:", isim[:2])
+
 
 
 
