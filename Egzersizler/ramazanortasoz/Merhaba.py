@@ -1,0 +1,2 @@
+print("Selamlar")
+print()

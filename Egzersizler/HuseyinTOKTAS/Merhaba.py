@@ -1,0 +1,2 @@
+
+input("Bir Sayı Giriniz")
