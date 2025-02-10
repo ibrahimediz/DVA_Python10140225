@@ -1,29 +1,4 @@
-#print fonksiyonu
-#input fonksiyonu
 
-print ("Selamlar", 1, 2, 3, 4, sep=";", end="-")
-input ("Bir sayı giriniz")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# Soru 1:
+# input fonksiyonu ile kullanıcıdan ismini isteyiniz. 
+# kullanıcının girmiş olduğu veririnin ilk 2 karakterini ekrana yazdıran python kodunu yazınız

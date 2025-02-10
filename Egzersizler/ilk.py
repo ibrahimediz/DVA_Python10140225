@@ -20,14 +20,21 @@ liste = ["mehmetduzgun",
 "omeraksoy",
 "gokselgok",
 "alicebe",
-"yasinerboga"
+"yasinerboga",
 "Sorular_Cevaplar"]
 
 import os 
+
+soru = """
+# Soru 1:
+# input fonksiyonu ile kullanıcıdan ismini isteyiniz. 
+# kullanıcının girmiş olduğu veririnin ilk 2 karakterini ekrana yazdıran python kodunu yazınız
+"""
 
 # print(len(liste))
 for item in liste:
     if not os.path.exists(f"Egzersizler/{item}"):
         os.mkdir(f"Egzersizler/{item}")
-    open(f"Egzersizler/{item}/Merhaba.py","a+",encoding="UTF-8")
+    with open(f"Egzersizler/{item}/Merhaba.py","w+",encoding="UTF-8") as d:
+        d.write(soru)
     

@@ -1,6 +1,4 @@
 
-
-alperen=float(input("Bir sayı Giriniz"))
-akcay=float(input("bir sayı giriniz"))
-alperen_akcay=alperen+akcay
-print("isim soy isim= ",alperen_akcay)
+# Soru 1:
+# input fonksiyonu ile kullanıcıdan ismini isteyiniz. 
+# kullanıcının girmiş olduğu veririnin ilk 2 karakterini ekrana yazdıran python kodunu yazınız

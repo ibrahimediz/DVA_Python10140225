@@ -1,3 +1,4 @@
-print("Selamlar",2,3,1,2,2.3,sep=";",end="-")
-print("Selamlar",2,3,1,2,2.3,sep=";")
 
+# Soru 1:
+# input fonksiyonu ile kullanıcıdan ismini isteyiniz. 
+# kullanıcının girmiş olduğu veririnin ilk 2 karakterini ekrana yazdıran python kodunu yazınız

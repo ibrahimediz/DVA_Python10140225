@@ -1,3 +1,4 @@
 
-var1 =2
-print(type(var1))
+# Soru 1:
+# input fonksiyonu ile kullanıcıdan ismini isteyiniz. 
+# kullanıcının girmiş olduğu veririnin ilk 2 karakterini ekrana yazdıran python kodunu yazınız

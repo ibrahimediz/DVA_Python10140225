@@ -1,4 +1,4 @@
-print("merhaba dünya!")
-var1 = {"H":"Hasan","B":"Berkay","K":"Koyuncu"}
-print(type(var1))
 
+# Soru 1:
+# input fonksiyonu ile kullanıcıdan ismini isteyiniz. 
+# kullanıcının girmiş olduğu veririnin ilk 2 karakterini ekrana yazdıran python kodunu yazınız

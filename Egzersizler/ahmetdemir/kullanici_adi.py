@@ -1,3 +1,30 @@
+isim = input("Lütfen isminizi girin: ")
+print("İsminizin ilk iki harfi:", isim[:2])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Soru 1:
 # input fonksiyonu ile kullanıcıdan ismini isteyiniz. 

@@ -1,2 +1,4 @@
-a = 4
-print(int(a**(1/2),a**4))
+
+# Soru 1:
+# input fonksiyonu ile kullanıcıdan ismini isteyiniz. 
+# kullanıcının girmiş olduğu veririnin ilk 2 karakterini ekrana yazdıran python kodunu yazınız
