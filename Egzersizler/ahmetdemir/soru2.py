@@ -11,8 +11,8 @@
 liste = [23,45,65,78,90,12]
 liste.append(1000)
 liste.insert(0,500)
-eleman = liste([3])*2
-liste [3] = eleman
+liste[3] = liste[3] * 2
 print(liste)
+
 
 

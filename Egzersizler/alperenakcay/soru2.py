@@ -16,3 +16,6 @@ liste.insert(0,500)
 liste[3] *= 2
 
 print(liste)
+
+
+for 

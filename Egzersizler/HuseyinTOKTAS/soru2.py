@@ -11,3 +11,4 @@ liste =[23,45,65,78,90,12]
 liste.append(1000)
 liste.insert(0,500)
 liste[3]=liste *2
+
