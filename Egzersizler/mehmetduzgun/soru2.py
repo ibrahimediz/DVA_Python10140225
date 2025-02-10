@@ -7,3 +7,10 @@
 # d. Listeyi ekrana yazdırınız
 # Beklenen Çıktı
 # [500,23,45,130,78,90,12,1000] 
+
+
+liste = [23,45,65,78,90,12]
+liste.append(1000)
+liste.insert(0,500)
+liste = liste.replace("65","130")
+print(liste)

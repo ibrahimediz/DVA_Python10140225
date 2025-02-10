@@ -1,12 +1,4 @@
 
-# Soru 1:
-# input fonksiyonu ile kullanıcıdan ismini isteyiniz. 
-
-#isim = input("İsminizi Giriniz:")
-#print(isim[0:2])
-#print(isim[:2])
-
-#soru = """
 # Soru 2:
 # liste = [23,45,65,78,90,12] 
 # a. Liste sonuna 1000 sayısını ekleyiniz
@@ -16,8 +8,8 @@
 # Beklenen Çıktı
 # [500,23,45,130,78,90,12,1000] 
 
-
-l1 = [1,2,3]
-l2 = l1.copy()
-l2.append(500)
-print(l1,l2)
+liste = [23, 45, 65, 78, 90, 12]
+liste.append(1000)
+liste.insert(0, 500)
+liste[3] = liste[3] * 2
+print(liste)
