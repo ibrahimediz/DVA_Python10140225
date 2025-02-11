@@ -13,3 +13,14 @@
 # oy kullanma yaşınının 16 olduğu bir ülkede 
 # kullanıcıdan alınan yaş bilgisi ile kontrol gerçekleştiriniz
 # ve ekrana oy kullanabilirsin yazınız
+
+
+yas = input("Yaş Bilgisi Giriniz:")
+if yas.isdigit():
+    yas = int(yas)
+    if yas >= 16:
+        print("Oy Kullan.")
+    else:
+        print(" Oy kullanamazsın BÜYÜ.")
+else:
+    print("Düzgün Yaz.")

@@ -14,4 +14,11 @@
 # kullanıcıdan alınan yaş bilgisi ile kontrol gerçekleştiriniz
 # ve ekrana oy kullanabilirsin yazınız
 
-yas = 
+yas = int(input("Whats your age: "))
+# if yas.isdigit():
+if yas >= 16:
+        print("Oy kullanabilirsiniz")
+else:
+        print("Oy kullanamazsınız")
+# else:
+#     print("Hatalı bilgi girişi yaptınız")

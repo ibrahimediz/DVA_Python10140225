@@ -9,3 +9,5 @@ print("adanızın il ıkı harfi",ad[:2])
 
 
 
+metin="DVA Python"
+for i in range(len(metin)):
