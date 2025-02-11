@@ -17,7 +17,16 @@
 # [500,23,45,130,78,90,12,1000] 
 
 
-l1 = [1,2,3]
-l2 = l1.copy()
-l2.append(500)
-print(l1,l2)
+# l1 = [1,2,3]
+# l2 = l1.copy()
+# l2.append(500)
+# print(l1,l2)
+
+
+a = 1
+for i in range(10,0,-2):
+    print(" " * int(i / 2) + "*"*a) 
+    a += 2
+for i in range(0,10,-2):
+    print(" " * int(i / 2) + "*"*a) 
+    a += 2

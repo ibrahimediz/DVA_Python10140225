@@ -1,6 +1,10 @@
+def baklava(n):
 
-# Soru 1:
-# input fonksiyonu ile kullanıcıdan ismini isteyiniz. 
-# kullanıcının girmiş olduğu veririnin ilk 2 karakterini ekrana yazdıran python kodunu yazınız
-isim = input("Adınızı giriniz: ")  
-print("İlk iki harf:", isim[:2])   
+    for i in range(1, n + 1, 2):
+        print(" " * ((n - i) // 2) + "*" * i)
+    
+    
+    for i in range(n - 2, 0, -2):
+        print(" " * ((n - i) // 2) + "*" * i)
+
+baklava(7)

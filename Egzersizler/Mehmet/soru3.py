@@ -24,3 +24,5 @@ if yas.isdigit():
         print("Oy kullanmak için yaşınız yeterli değil")
 else:
     print("Yanlış Giriş")
+
+

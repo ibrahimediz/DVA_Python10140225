@@ -22,6 +22,11 @@ for i in range(50,0,-2):
 
 
 a = 1
-for i in range(50,0,-2):
+b = 1
+for i in range(20,0,-2):
     print(" " * int(i / 2) + "*"*a) 
     a += 2
+for j in range(20,0,-2):
+    print(" "*b + "*"*j) 
+    b += 1
+

@@ -23,3 +23,4 @@ if oyy.isdigit():
         print("Oy Kullanabilirsin")
 else:
     print("Yanliş Giriş")
+ 
