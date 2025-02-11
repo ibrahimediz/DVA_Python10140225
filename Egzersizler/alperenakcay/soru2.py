@@ -18,4 +18,3 @@ liste[3] *= 2
 print(liste)
 
 
-for 
