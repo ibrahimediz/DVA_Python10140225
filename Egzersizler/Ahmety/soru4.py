@@ -20,15 +20,15 @@
 # print("  ***  ")
 
 
-# Piramit yüksekliğini kullanıcıdan alalım
-height = int(input("Piramit yüksekliğini giriniz: "))
+import sys
+import math
 
-# Üst piramid
-for i in range(1, height + 1):
-    print(" " * (height - i), end="")
-    print("*" * (2 * i - 1))
+# Auto-generated code below aims at helping you parse
+# the standard input according to the problem statement.
 
-# Alt ters piramid
-for i in range(height - 1, 0, -1):
-    print(" " * (height - i), end="")
-    print("*" * (2 * i - 1))
+s = input()
+
+# Write an answer using print
+# To debug: print("Debug messages...", file=sys.stderr, flush=True)
+
+print("result")

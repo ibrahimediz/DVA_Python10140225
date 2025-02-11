@@ -11,3 +11,5 @@
 # 5. En az 1 Noktalama
 # 6. Kharf ve Bharf yan yana gelmesin Numara ve kHarf yan yana gelmesin
 
+from random import choice
+from string import ascii_lowercase,ascii_uppercase,punctuation,digits

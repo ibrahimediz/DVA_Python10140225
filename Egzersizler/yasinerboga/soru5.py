@@ -11,3 +11,5 @@
 # 5. En az 1 Noktalama
 # 6. Kharf ve Bharf yan yana gelmesin Numara ve kHarf yan yana gelmesin
 
+liste = [i for i in range(100) if i % 5 and i % 2]
+print(len(liste))
