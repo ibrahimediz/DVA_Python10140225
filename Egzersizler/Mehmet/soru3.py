@@ -15,14 +15,14 @@
 # ve ekrana oy kullanabilirsin yazınız
 
 
-yas = input("Yaşınızı Giriniz: ")
-if yas.isdigit():
-    yas = int(yas)
-    if yas >= 16:
-        print("Oy kullanabilirsiniz")
-    else:
-        print("Oy kullanmak için yaşınız yeterli değil")
-else:
-    print("Yanlış Giriş")
+# yas = input("Yaşınızı Giriniz: ")
+# if yas.isdigit():
+#     yas = int(yas)
+#     if yas >= 16:
+#         print("Oy kullanabilirsiniz")
+#     else:
+#         print("Oy kullanmak için yaşınız yeterli değil")
+# else:
+#     print("Yanlış Giriş")
 
 

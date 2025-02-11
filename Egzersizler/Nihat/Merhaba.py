@@ -23,10 +23,31 @@
 # print(l1,l2)
 
 
+# a = 1
+# for i in range(10,0,-2):
+#     print(" " * int(i / 2) + "*"*a) 
+#     a += 2
+# for i in range(0,10,+2):
+#     print(" " * int(i / 2) + "*"*a) 
+#     a -= 2
+# print("     *")
+
+
+# a = 1
+# for i in range(10,0,-2):
+#     print(" " * int(i / 2) + "*"*a) 
+#     a += 2
+# for i in range(0,10,+2):
+#     print(" " * int(i / 2) + "*"*a) 
+#     a -= 2
+
+
 a = 1
-for i in range(10,0,-2):
-    print(" " * int(i / 2) + "*"*a) 
+for i in range(10, 0, -2):
+    print(" " * int(i / 2) + "*" * a)
     a += 2
-for i in range(0,10,-2):
-    print(" " * int(i / 2) + "*"*a) 
-    a += 2
+for i in range(0, 10, +2):
+    print(" " * int(i / 2) + "*" * a)
+    a -= 2
+    
+print(" " * 5 + "*")

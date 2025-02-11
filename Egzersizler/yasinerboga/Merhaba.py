@@ -13,3 +13,5 @@ print (isim[0:2])
 # d. Listeyi ekrana yazdırınız
 # Beklenen Çıktı
 # [500,23,45,130,78,90,12,1000] 
+
+

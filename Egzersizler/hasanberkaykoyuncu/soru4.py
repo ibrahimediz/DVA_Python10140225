@@ -10,8 +10,11 @@
 # yukarıda yer alan şekli elde edebilmek için gerekli python
 # kodunu yazınız
 
-n = 5
-for i in range(1,n):
-    print("* "*i)
-for j in range(n,0,-1):
-    print("* "*j)
+
+n = 7
+for i in range(1,n+1, 2):
+    spaces = (n - i) // 2
+    print(' ' * spaces + '*' * i)
+for i in range(n-2, 0, -2):
+    spaces = (n - i) // 2
+    print(' ' * spaces + '*' * i)
