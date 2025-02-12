@@ -30,12 +30,20 @@ import os
 
 soru = """
 # Soru 6:
-# 1- SQL Injection Tespiti
-# Bir SQL sorgusunda zararlı bir giriş olup olmadığını kontrol eden bir fonksiyon yazın.
-# 2- IP Adresi Doğrulama
-Kullanıcıdan bir IP adresi alarak geçerli bir IPv4 adresi olup olmadığını kontrol edin.
-# 3- IBAN Doğrulama
-Kullanıcıdan bir IBAN adresi alarak geçerli bir IBAN adresi olup olmadığını kontrol edin.
+# class Sinif:
+#     sinifOzelligi = "Sınıf Özelliği"
+#     def __init__(self,a):
+#        self.ornekOzellik = a
+    
+#     def ornekMethod(self):
+#         print(self.ornekOzellik)
+
+#     def sinifMethod(cls):
+#         print(cls.sinifOzelligi)
+
+# yukarıda yer alan örnekten faydalanarak Cokgen adında bir sınıf üretiniz
+# bu sınıf üzerinden üçgen ve kare adında iki nesne üretip 
+# bu nesnelere ait kenar sayısı ve iç açı toplamını ekrana yazdırınız
 """
 dosyaismi = "soru6.py"
 # print(len(liste))

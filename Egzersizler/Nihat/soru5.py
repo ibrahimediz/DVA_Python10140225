@@ -43,3 +43,31 @@
 input_str = input("Bir şey yazın: ")  # Kullanıcıdan input al
 output_str = input_str[0].lower() + input_str[1:].upper()  # İlk harf küçük, diğerleri büyük olsun
 print(output_str)
+
+
+# from random import choice
+# from string import ascii_lowercase,ascii_uppercase,punctuation,digits
+
+# uzunluk = int(input("şifre uzunluğu giriniz."))
+
+# sifre = ""
+
+while len(sifre) < uzunluk:
+    a = choice(ascii_lowercase)
+    b = choice(ascii_uppercase)
+    c = choice(punctuation)
+    d = choice(digits)
+    liste = [a,b,c,d]
+    secilenKarakter = choice(liste)
+    if secilenKarakter == a:
+        liste.remove(b)
+        liste.remove(d)
+        secilenKarakter = choice(liste)
+    elif secilenKarakter ==b:
+        liste.remove(a)
+        secilenKarakter = choice(liste)
+    elif secilenKarakter == d:
+        liste.remove(a)
+        secilenKarakter = choice(liste)
+    sifre = sifre + secilenKarakter
+print(sifre)
