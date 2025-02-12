@@ -1,54 +1,26 @@
 
-# Soru 5:
-# from random import choice
-# from string import ascii_lowercase,ascii_uppercase,punctuation,digits
+def find_number():
+    # 11 haneli sayıyı 10000000001 ile 99999999999 arasında arıyoruz
+    for num in range(10000000001, 100000000000):  # 11 haneli sayılar
+        str_num = str(num)
+        
+        # 1, 3, 5, 7, 9 hanelerinin toplamını hesapla
+        sum_odd_positions = int(str_num[0]) + int(str_num[2]) + int(str_num[4]) + int(str_num[6]) + int(str_num[8])
+        
+        # 2, 4, 6, 8 hanelerinin toplamını hesapla
+        sum_even_positions = int(str_num[1]) + int(str_num[3]) + int(str_num[5]) + int(str_num[7])
+        
+        # 10. haneyi, 1, 3, 5, 7, 9 hanelerinin toplamının 7 katının, 2, 4, 6, 8 hanelerinin toplamına farkının mod 10'u verecek
+        if (sum_odd_positions * 7 - sum_even_positions) % 10 != int(str_num[9]):
+            continue
+        
+        # 1, 2, 3, 4, 5, 6, 7, 8, 9 hanelerinin toplamının mod 11'i, 11. haneyi verecek
+        if sum(int(str_num[i]) for i in range(9)) % 11 != int(str_num[10]):
+            continue
+        
+        # Eğer tüm şartlar sağlanıyorsa, sayıyı döndür
+        return num
 
-# yukarıda yer alan kütüphanelerden faydalanarak
-# 1. En az 8 karakter uzunluğunda
-# 2. En az 1 Rakam 
-# 3. En az 1 Küçük Harf 
-# 4. En az 1 Büyük Harf
-# 5. En az 1 Noktalama
-# 6. Kharf ve Bharf yan yana gelmesin Numara ve kHarf yan yana gelmesin
-
-import random
-import string
-
-def generate_password():
-    while True:
-        password = []
-        
-        # En az 1 küçük harf
-        password += random.choices(string.ascii_lowercase, k=1)
-        
-        # En az 1 büyük harf
-        password += random.choices(string.ascii_uppercase, k=1)
-        
-        # En az 1 rakam
-        password += random.choices(string.digits, k=1)
-        
-        # En az 1 noktalama işareti
-        password += random.choices(string.punctuation, k=1)
-        
-        # Şifre uzunluğunu 8'e tamamla (geri kalan karakterler rastgele)
-        password += random.choices(string.ascii_letters + string.digits + string.punctuation, k=8-len(password))
-        
-        # Şifreyi karıştır
-        random.shuffle(password)
-        
-        # Şifreyi oluştur
-        password = ''.join(password)
-        
-        # Şifrenin kurallara uygun olup olmadığını kontrol et
-        if (len(password) >= 8 and
-            any(c.isdigit() for c in password) and
-            any(c.islower() for c in password) and
-            any(c.isupper() for c in password) and
-            any(c in string.punctuation for c in password) and
-            not any(password[i].isupper() and password[i+1].islower() for i in range(len(password)-1)) and
-            not any(password[i].islower() and password[i+1].isdigit() for i in range(len(password)-1))):
-            return password
-
-# Yeni şifre oluştur
-new_password = generate_password()
-print("HAYIRLI OLSUN :", new_password)
+# Sayıyı bulma
+result = find_number()
+print(f"Bulunan sayı: {result}")

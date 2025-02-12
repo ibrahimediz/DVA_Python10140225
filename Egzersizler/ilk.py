@@ -29,20 +29,15 @@ liste = ["mehmetduzgun",
 import os 
 
 soru = """
-# Soru 5:
-# from random import choice
-# from string import ascii_lowercase,ascii_uppercase,punctuation,digits
-
-# yukarıda yer alan kütüphanelerden faydalanarak
-# 1. En az 8 karakter uzunluğunda
-# 2. En az 1 Rakam 
-# 3. En az 1 Küçük Harf 
-# 4. En az 1 Büyük Harf
-# 5. En az 1 Noktalama
-# 6. Kharf ve Bharf yan yana gelmesin Numara ve kHarf yan yana gelmesin
-
+# Soru 6:
+# 1- SQL Injection Tespiti
+# Bir SQL sorgusunda zararlı bir giriş olup olmadığını kontrol eden bir fonksiyon yazın.
+# 2- IP Adresi Doğrulama
+Kullanıcıdan bir IP adresi alarak geçerli bir IPv4 adresi olup olmadığını kontrol edin.
+# 3- IBAN Doğrulama
+Kullanıcıdan bir IBAN adresi alarak geçerli bir IBAN adresi olup olmadığını kontrol edin.
 """
-dosyaismi = "soru5.py"
+dosyaismi = "soru6.py"
 # print(len(liste))
 for item in liste:
     if not os.path.exists(f"Egzersizler/{item}"):
