@@ -29,23 +29,21 @@ liste = ["mehmetduzgun",
 import os 
 
 soru = """
-# Soru 6:
-# class Sinif:
-#     sinifOzelligi = "Sınıf Özelliği"
-#     def __init__(self,a):
-#        self.ornekOzellik = a
-    
-#     def ornekMethod(self):
-#         print(self.ornekOzellik)
+# Soru 7:
+# class Araba():
+#     tip = "Binek Otomobil"
+#     def __init__(self,plaka,marka,model,saseno):
+#         self.plaka = plaka
+#         self.marka = marka
+#         self.model = model
+#         self.__saseno = saseno
 
-#     def sinifMethod(cls):
-#         print(cls.sinifOzelligi)
+#     def bilgiVer(self):
+#         print(self.marka,self.model)
+#         print("Plaka:",self.plaka)
 
-# yukarıda yer alan örnekten faydalanarak Cokgen adında bir sınıf üretiniz
-# bu sınıf üzerinden üçgen ve kare adında iki nesne üretip 
-# bu nesnelere ait kenar sayısı ve iç açı toplamını ekrana yazdırınız
 """
-dosyaismi = "soru6.py"
+dosyaismi = "soru7.py"
 # print(len(liste))
 for item in liste:
     if not os.path.exists(f"Egzersizler/{item}"):
