@@ -12,3 +12,4 @@
 #         print(self.marka,self.model)
 #         print("Plaka:",self.plaka)
 
+haymanalı ders çalış 
