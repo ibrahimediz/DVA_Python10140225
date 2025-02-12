@@ -14,3 +14,10 @@
 # yukarıda yer alan örnekten faydalanarak Cokgen adında bir sınıf üretiniz
 # bu sınıf üzerinden üçgen ve kare adında iki nesne üretip 
 # bu nesnelere ait kenar sayısı ve iç açı toplamını ekrana yazdırınız
+class cokgen:
+    cokgenOzelligi = "Çokgen Özelliği"
+    def __init__(self,üçgen):
+        self.ornekOzellik = üçgen
+
+    def ornekMethod(self):
+        print(self.ornekOzellik)
