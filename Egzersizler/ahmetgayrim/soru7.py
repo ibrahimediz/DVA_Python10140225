@@ -65,4 +65,6 @@ araba1.saseno = ""  # Geçersiz bir şasi numarası
 # Şasi numarasını silelim
 del araba1.saseno  # Deleter metodu ile şasi numarasını siliyoruz
 
+# haymanalı gerekeni yapıyor komutanım :D 
+
 

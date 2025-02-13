@@ -75,3 +75,11 @@ araba1.bilgiVer()
 # Yetki hatası ile şase numarasına erişim (yetki 0 olursa hata verir)
 araba2 = Araba("35XYZ35", "Honda", "Civic", "SASE987654321", 0)
 araba2.bilgiVer()
+
+
+
+
+araba = "honda"
+
+
+sayı = int("9")
