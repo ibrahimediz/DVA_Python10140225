@@ -1,0 +1,2 @@
+reuqirements.txt dosyası içerisindeki kütüphaneleri kurabimek için 
+pip install -r reuqirements.txt
