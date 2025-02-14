@@ -1,0 +1,40 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "ornek",
+    "collectionId": "22190b45-f402-4845-a5b4-05ccc245e4ea",
+    "dateExported": "2025-01-09T07:50:33.377Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "2b19093c-9184-4fd1-8931-959a74384898",
+            "colId": "22190b45-f402-4845-a5b4-05ccc245e4ea",
+            "containerId": "",
+            "name": "http://127.0.0.1:5000/api/kitaplar",
+            "url": "http://127.0.0.1:5000/api/kitaplar",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2025-01-09T07:48:20.399Z",
+            "modified": "2025-01-09T07:48:20.399Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\"kitap_adi\":\"1984\",\n\"yazar\":\"George Orwell\",\n\"isbn\": \"97823312223211\",\n\"yayim_tarihi\":\"1949-06-08\"}",
+                "form": []
+            }
+        },
+        {
+            "_id": "f98db5d5-3358-4a14-8ecb-a769f6c013bc",
+            "colId": "22190b45-f402-4845-a5b4-05ccc245e4ea",
+            "containerId": "",
+            "name": "http://127.0.0.1:5000/api/kitaplar",
+            "url": "http://127.0.0.1:5000/api/kitaplar",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2025-01-09T07:49:43.550Z",
+            "modified": "2025-01-09T07:49:43.550Z",
+            "headers": []
+        }
+    ],
+    "ref": "xzYzyhFUYDaTkbUliM9w9sp5Fv-N3VJQ_b23M4La1L9QzcFDnIqNQbM4ppbCH5O3kTevhd0HNi6gjcYe10WFIg"
+}
